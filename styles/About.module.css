@@ -1,0 +1,34 @@
+.about{
+    padding: 40px;
+}
+.about_top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info_picture{
+
+}
+.about_info{
+    font-size: 24px;
+}
+.info_name{
+    color: dodgerblue;
+    font-size: 32px;
+}
+@media only screen and (max-width:720px) {
+    .about_top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info_picture{
+        height: 100px;
+    }
+    .about_info{
+        font-size:20px;
+    }
+    .info_name{
+        font-size: 26px;
+    }
+}
