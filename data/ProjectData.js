@@ -13,8 +13,8 @@ export const ProjectData = [
       title:"My Portfolio",
       about:"Portfolio project built with Next JS .The site is built for myself and I will be updating my skills and contribution in this site." ,
       tags:["NextJs","StyledComponents"],
-      demo:"https://github.com/dineshdevelops/dinesh-portfolio",
-      github:"www.github.com",
+      demo:"https://dinesh-portfolio.vercel.app/",
+      github:"https://github.com/dineshdevelops/dinesh-portfolio",
       image:require('../public/assets/projects/portfolio.jpg')
     },
     {
