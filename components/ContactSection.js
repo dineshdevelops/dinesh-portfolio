@@ -13,8 +13,12 @@ const ContactSection = () => {
           <SocialNetworks />
         </div>
         <div className={styles.download}>
-          <a download href={require("../public/assets/DineshResume.pdf").default}>
-          <img src="https://img.icons8.com/material-outlined/24/undefined/download--v1.png"/>            Download Resume
+          <a
+            download
+            href="https://1drv.ms/b/s!AnYY8-FD-JBMmxSOx3LhhP9s7lK9?e=OdDnfc"
+          >
+            <img src="https://img.icons8.com/material-outlined/24/undefined/download--v1.png" />{" "}
+            Download Resume
           </a>
         </div>
       </div>
