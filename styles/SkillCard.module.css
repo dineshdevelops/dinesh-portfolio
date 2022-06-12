@@ -1,0 +1,25 @@
+.skill_card{
+    width: max-content;
+    padding: 8px 16px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    border-radius: 8px;
+}
+.skill_icon{
+    font-size: 80px;
+}
+.skill_name{
+    font-size: 18px;
+}
+@media only screen and (max-width:720px) {
+    .skill_card{
+        height: 100px;
+    }
+    .skill_icon{
+        font-size: 60px;
+    }
+}
