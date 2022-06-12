@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "../../styles/ProjectSection.module.css"
-import {ProjectData} from "../../public/data/ProjectData"
+import styles from "../styles/ProjectSection.module.css"
+import {ProjectData} from "../data/ProjectData"
 import ProjectCard from './ProjectCard'
 import Separator from './Separator'
 const ProjectsSection = () => {

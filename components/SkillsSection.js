@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../../styles/Skills.module.css";
-import { SkillsData } from "../../public/data/SkillsData";
+import styles from "../styles/Skills.module.css";
+import { SkillsData } from "../data/SkillsData";
 import Separator from "./Separator";
 import SkillCard from "./SkillCard";
 const SkillsSection = () => {
