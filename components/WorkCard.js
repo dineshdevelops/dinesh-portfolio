@@ -4,7 +4,7 @@ import Image from "next/image";
 const WorkCard = ({work}) => {
   return (
     <div className={styles.work_card}>
-        <Image src={work.companyLogo} width="150px" height="150px" alt='work-image'/>
+        <Image src={work.companyLogo} width="200px" height="250px" alt='work-image'/>
         <div className={styles.work_info}>
             <label className={styles.company_name}>{work.company}</label>
             <label className={styles.designation}>{work.designation}</label>
