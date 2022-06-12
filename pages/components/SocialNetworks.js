@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialData } from "./data/SocialData";
+import { SocialData } from "../../public/data/SocialData";
 import Image from "next/image";
 import styles from "../../styles/SocialNetworks.module.css";
 const SocialNetworks = () => {

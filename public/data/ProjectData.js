@@ -6,7 +6,7 @@ export const ProjectData = [
       tags:["ReactJs","StyledComponents","EmailJs"],
       demo:"https://techieteam.org/",
       github:"www.github.com",
-      image:require('../../../public/assets/projects/techieTeam.png')
+      image:require('../assets/projects/techieTeam.png')
     },
     {
       id:2,
@@ -15,7 +15,7 @@ export const ProjectData = [
       tags:["NextJs","StyledComponents"],
       demo:"https://github.com/dineshdevelops/dinesh-portfolio",
       github:"www.github.com",
-      image:require('../../../public/assets/projects/portfolio.jpg')
+      image:require('../assets/projects/portfolio.jpg')
     },
     {
       id:3,
@@ -24,6 +24,6 @@ export const ProjectData = [
       tags:["NextJs","StyledComponents"],
       demo:"https://bengalore-taste.vercel.app/",
       github:"https://github.com/dineshdevelops/bengaloreTaste",
-      image:require('../../../public/assets/projects/bangaloreTaste.png')
+      image:require('../assets/projects/BangaloreTaste.png')
     }
 ]
