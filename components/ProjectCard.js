@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/ProjectCard.module.css";
+import styles from "../styles/ProjectCard.module.css";
 import Image from "next/image";
 
 const ProjectCard = ({ project }) => {
@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
             })}
           </div>
       </div>
-      <Image src={project.image} width="400px" height="300px" />
+      <Image src={project.image} width="400px" height="300px"  />
     </div>
   );
 };

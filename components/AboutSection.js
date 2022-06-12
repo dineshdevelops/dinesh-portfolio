@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../../styles/About.module.css";
-import CodingAnimation from "../../public/assets/Coding-Animation.gif"
+import styles from "../styles/About.module.css";
+import CodingAnimation from "../public/assets/Coding-Animation.gif"
 import Image from "next/image";
 import SocialNetworks from "./SocialNetworks";
 const AboutSection = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/ContactSection.module.css";
+import styles from "../styles/ContactSection.module.css";
 import Separator from "./Separator";
 import SocialNetworks from "./SocialNetworks";
 const ContactSection = () => {
@@ -13,7 +13,7 @@ const ContactSection = () => {
           <SocialNetworks />
         </div>
         <div className={styles.download}>
-          <a download href={require("../../public/assets/DineshResume.pdf").default}>
+          <a download href={require("../public/assets/DineshResume.pdf").default}>
           <img src="https://img.icons8.com/material-outlined/24/undefined/download--v1.png"/>            Download Resume
           </a>
         </div>

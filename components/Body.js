@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/Body.module.css";
+import styles from "../styles/Body.module.css";
 import AboutSection from "./AboutSection";
 import ContactSection from "./ContactSection";
 import ProjectsSection from "./ProjectsSection";

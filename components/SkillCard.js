@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../../styles/SkillCard.module.css"
+import styles from "../styles/SkillCard.module.css"
 const SkillCard = ({skill}) => {
   return (
     <div className={styles.skill_card}>
