@@ -24,6 +24,6 @@ export const ProjectData = [
       tags:["NextJs","StyledComponents"],
       demo:"https://bengalore-taste.vercel.app/",
       github:"https://github.com/dineshdevelops/bengaloreTaste",
-      image:require('../assets/projects/BangaloreTaste.png')
+      image:require('../assets/projects/bangaloreTaste.png')
     }
 ]
