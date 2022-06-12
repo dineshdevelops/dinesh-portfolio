@@ -15,6 +15,6 @@ export const WorkData=[
         dateJoining:"01-10-2020",
         dateEnd:"01-03-2021",
         companyLogo:"https://www.infovision.com/themes/custom/infovision/logo.svg",
-        work:"A part of couple of Verizon projects - e-Commerce site and BatchJob.Tech stack such as SpringBoot and Cassandra."
+        work:"The project is mainly focussed on a chatbot service which uses the customer keyword from the cha"
     }
 ];
