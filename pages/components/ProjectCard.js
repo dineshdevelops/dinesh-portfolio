@@ -28,7 +28,7 @@ const ProjectCard = ({ project }) => {
         <p>{project.about}</p>
           <div className={styles.project_tags}>
             {project.tags.map((tag) => {
-              return <label className={styles.tag}>{tag}</label>;
+              return <label className={styles.tag} key={tag.id}>{tag}</label>;
             })}
           </div>
       </div>

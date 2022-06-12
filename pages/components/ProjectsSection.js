@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../../styles/ProjectSection.module.css"
-import {ProjectData} from "../components/data/projects"
+import {ProjectData} from "./data/ProjectData"
 import ProjectCard from './ProjectCard'
 import Separator from './Separator'
 const ProjectsSection = () => {
@@ -12,7 +12,7 @@ const ProjectsSection = () => {
       <div>
         {
           data.map((project)=>{
-            return <ProjectCard project={project} />;
+            return <ProjectCard project={project} key={project.id}/>;
           })
         }
       </div>

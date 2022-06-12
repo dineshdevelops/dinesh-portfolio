@@ -1,30 +1,36 @@
 export const SocialData=[
     {
+        id:"1",
         platform:"Instagram",
         link:"https://www.instagram.com/dinesh_the_geek/",
         icon:require('../../../public/assets/icons/instagram.png').default,
     },
     {
+        id:"2",
         platform:"Git Hub",
         link:"https://github.com/dineshdevelops",
         icon:require('../../../public/assets/icons/github.png').default,
     },
     {
+        id:"3",
         platform:"Linkedin",
         link:"https://www.linkedin.com/in/dinesh-s-5191ab19a/",
         icon:require('../../../public/assets/icons/linkedin.png').default,
     },
     {
+        id:"4",
         platform:"Twitter",
         link:"https://twitter.com/dinesh_the_geek",
         icon:require('../../../public/assets/icons/twitter.png').default,
     },
     {
+        id:"5",
         platform:"Email",
         link:"https://mail.google.com/mail/?view=cm&fs=1&to=dineshdevelops@domain.com",
         icon:require('../../../public/assets/icons/email.png').default,
     },
     {
+        id:"6",
         platform:"Call",
         link:"tel:999-480-9095",
         icon:require('../../../public/assets/icons/call.png').default,
