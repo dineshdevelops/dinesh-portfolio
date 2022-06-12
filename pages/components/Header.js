@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={styles.header}>
-      <div className="logo">Dinesh</div>
+      <div className={styles.logo}><span className={styles.d}>D</span>inesh</div>
       <div className={styles.menu}>
         <div className={styles.web_menu}>
           <div className={styles.web_options}>

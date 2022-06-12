@@ -6,6 +6,7 @@
     flex: 1;
     padding: 12px;
     position: relative;
+    top: 0;
     align-items: center;
 }
 
@@ -46,7 +47,7 @@
 .mobile {
     height: 100vh;
     width: 60vw;
-    position: absolute;
+    position: relative;
     right: 0px;
     top: -6px;
     padding: 18px 12px;
@@ -77,6 +78,15 @@
 
 .mobile_option a {
     display: flex;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 500;
+}
+.d{
+    font-size: 30px;
+    color: dodgerblue;
+    font-weight: 700;
 }
 
 @media only screen and (max-width:512px) {
