@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../styles/WorkSection.module.css"
 import Separator from './Separator'
-import { WorkData } from './data/WorkData'
+import { WorkData } from '../../public/data/WorkData'
 import WorkCard from './WorkCard'
 const WorkSection = () => {
   const data=WorkData;
